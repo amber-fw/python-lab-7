@@ -1,0 +1,4 @@
+
+mtcars = sm.datasets.get_rdataset("mtcars", "datasets", cache=True).data
+df = pd.DataFrame(mtcars)
+
